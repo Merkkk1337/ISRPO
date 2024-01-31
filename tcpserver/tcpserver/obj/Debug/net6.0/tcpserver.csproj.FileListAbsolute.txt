@@ -1,0 +1,15 @@
+D:\ISRPO\tcpserver\tcpserver\bin\Debug\net6.0\tcpserver.exe
+D:\ISRPO\tcpserver\tcpserver\bin\Debug\net6.0\tcpserver.deps.json
+D:\ISRPO\tcpserver\tcpserver\bin\Debug\net6.0\tcpserver.runtimeconfig.json
+D:\ISRPO\tcpserver\tcpserver\bin\Debug\net6.0\tcpserver.dll
+D:\ISRPO\tcpserver\tcpserver\bin\Debug\net6.0\tcpserver.pdb
+D:\ISRPO\tcpserver\tcpserver\obj\Debug\net6.0\tcpserver.csproj.AssemblyReference.cache
+D:\ISRPO\tcpserver\tcpserver\obj\Debug\net6.0\tcpserver.GeneratedMSBuildEditorConfig.editorconfig
+D:\ISRPO\tcpserver\tcpserver\obj\Debug\net6.0\tcpserver.AssemblyInfoInputs.cache
+D:\ISRPO\tcpserver\tcpserver\obj\Debug\net6.0\tcpserver.AssemblyInfo.cs
+D:\ISRPO\tcpserver\tcpserver\obj\Debug\net6.0\tcpserver.csproj.CoreCompileInputs.cache
+D:\ISRPO\tcpserver\tcpserver\obj\Debug\net6.0\tcpserver.dll
+D:\ISRPO\tcpserver\tcpserver\obj\Debug\net6.0\refint\tcpserver.dll
+D:\ISRPO\tcpserver\tcpserver\obj\Debug\net6.0\tcpserver.pdb
+D:\ISRPO\tcpserver\tcpserver\obj\Debug\net6.0\tcpserver.genruntimeconfig.cache
+D:\ISRPO\tcpserver\tcpserver\obj\Debug\net6.0\ref\tcpserver.dll
