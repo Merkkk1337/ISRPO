@@ -1,0 +1,11 @@
+D:\ISRPO\UDPchat\UDPchat\bin\Debug\UDPchat.exe.config
+D:\ISRPO\UDPchat\UDPchat\bin\Debug\UDPchat.exe
+D:\ISRPO\UDPchat\UDPchat\bin\Debug\UDPchat.pdb
+D:\ISRPO\UDPchat\UDPchat\obj\Debug\UDPchat.csproj.AssemblyReference.cache
+D:\ISRPO\UDPchat\UDPchat\obj\Debug\UDPchat.csproj.SuggestedBindingRedirects.cache
+D:\ISRPO\UDPchat\UDPchat\obj\Debug\UDPchat.MainForm.resources
+D:\ISRPO\UDPchat\UDPchat\obj\Debug\UDPchat.Properties.Resources.resources
+D:\ISRPO\UDPchat\UDPchat\obj\Debug\UDPchat.csproj.GenerateResource.cache
+D:\ISRPO\UDPchat\UDPchat\obj\Debug\UDPchat.csproj.CoreCompileInputs.cache
+D:\ISRPO\UDPchat\UDPchat\obj\Debug\UDPchat.exe
+D:\ISRPO\UDPchat\UDPchat\obj\Debug\UDPchat.pdb
