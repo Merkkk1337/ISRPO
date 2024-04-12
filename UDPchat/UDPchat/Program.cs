@@ -16,7 +16,14 @@ namespace UDPchat
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new MainForm());
+            MainForm mainForm = new MainForm();
+            mainForm.Show();
+            MainForm2 mainForm2 = new MainForm2();
+            mainForm2.Show();
+                
+            Application.Run();
+            
+
         }
     }
 }

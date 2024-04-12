@@ -7,18 +7,20 @@ using System.Windows.Forms;
 
 namespace UDPchat
 {
-    public partial class MainForm : Form
+    public partial class MainForm2 : Form
     {
         private UdpClient client;
         private Thread receivingThread;
 
-        public MainForm()
+        public MainForm2()
         {
             InitializeComponent();
+            MainForm2_Load(this, EventArgs.Empty); // Вызываем метод MainForm2_Load при создании экземпляра MainForm2
         }
 
-        private void MainForm_Load(object sender, EventArgs e)
+        private void MainForm2_Load(object sender, EventArgs e)
         {
+            // Ваш существующий код из MainForm2_Load
             // Инициализация клиента UDP
             client = new UdpClient();
             client.Client.SetSocketOption(SocketOptionLevel.Socket, SocketOptionName.ReuseAddress, true);
@@ -27,7 +29,7 @@ namespace UDPchat
             // Запуск потока для приема сообщений
             receivingThread = new Thread(ReceiveMessages);
             receivingThread.IsBackground = true;
-            receivingThread.Start();
+            receivingThread.Start(); // Запускаем поток приема сообщений
         }
 
         private void UpdateChatDisplay(string message)
@@ -45,8 +47,8 @@ namespace UDPchat
 
         private int FindAvailablePort()
         {
-            const int startPort = 11000;
-            const int endPort = 11499; // Вы можете настроить диапазон портов в соответствии с вашими потребностями
+            const int startPort = 11500;
+            const int endPort = 12000; // Вы можете настроить диапазон портов в соответствии с вашими потребностями
 
             for (int port = startPort; port <= endPort; port++)
             {
@@ -85,7 +87,7 @@ namespace UDPchat
         {
             try
             {
-                IPEndPoint remoteEP = new IPEndPoint(IPAddress.Any, 11000);
+                IPEndPoint remoteEP = new IPEndPoint(IPAddress.Any, 11500);
 
                 while (true)
                 {
@@ -148,7 +150,7 @@ namespace UDPchat
                 byte[] data = Encoding.UTF8.GetBytes(message);
 
                 // Отправляем сообщение всем участникам группы
-                client.Send(data, data.Length, new IPEndPoint(IPAddress.Parse("239.255.255.250"), 11500));
+                client.Send(data, data.Length, new IPEndPoint(IPAddress.Parse("239.255.255.250"), 11000));
                 UpdateChatDisplay(message);
 
                 // Очищаем текстовое поле сообщения

@@ -9,3 +9,4 @@ D:\ISRPO\UDPchat\UDPchat\obj\Debug\UDPchat.csproj.GenerateResource.cache
 D:\ISRPO\UDPchat\UDPchat\obj\Debug\UDPchat.csproj.CoreCompileInputs.cache
 D:\ISRPO\UDPchat\UDPchat\obj\Debug\UDPchat.exe
 D:\ISRPO\UDPchat\UDPchat\obj\Debug\UDPchat.pdb
+D:\ISRPO\UDPchat\UDPchat\obj\Debug\UDPchat.MainForm2.resources
